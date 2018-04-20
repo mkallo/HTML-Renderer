@@ -4,7 +4,7 @@ CD %~dp0
 
 echo.
 echo - Get version...
-for /f %%i in ('getVer.exe ..\Source\SharedAssemblyInfo.cs') do set version=%%i
+for /f "tokens=1-3 delims=." %%i in ('getVer.exe ..\Source\SharedAssemblyInfo.cs') do set version=%%i.%%j.%%k-beta
 echo Version: %version%
 
 echo.
