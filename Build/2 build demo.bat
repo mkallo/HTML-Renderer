@@ -34,3 +34,4 @@ copy Release\Demo\WinForms\HtmlRendererWinFormsDemo.exe "Release\HtmlRenderer Wi
 copy Release\Demo\Mono\HtmlRendererWinFormsDemo.exe "Release\HtmlRenderer Mono Demo.exe"
 copy Release\Demo\WPF\HtmlRendererWpfDemo.exe "Release\HtmlRenderer WPF Demo.exe"
 rmdir Release\Demo /s /q
+rmdir ..\..\Build /s /q
